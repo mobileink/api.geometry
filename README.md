@@ -1,7 +1,7 @@
-kore.geometry
+api.geometry
 =============
 
-A geometry vocabulary for clojure.  Maybe, some unlikely day, good enough to become core.geometry.
+A Clojure API for geometry
 
 Graphics languages:
 
