@@ -1,7 +1,7 @@
 api.geometry
 =============
 
-A Clojure API for geometry
+A Clojure API for geometry.  See also dsl.geometry.
 
 Graphics languages:
 
