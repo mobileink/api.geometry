@@ -13,7 +13,7 @@ days for core.matrix, so the documentation is pretty thin.  To get the
 general idea see the comments in
 [matrix.clj](https://github.com/mikera/core.matrix/blob/develop/src/main/clojure/clojure/core/matrix.clj)
 
-See the [wiki](api.geometry design) for more info.
+See the [wiki](wiki/api.geometry-design) for more info.
 
 Graphics languages:
 
