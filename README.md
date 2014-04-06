@@ -4,9 +4,10 @@ api.geometry
 A Clojure API for geometry.  See also dsl.geometry.
 
 **CAVEAT** Experimental.  Will change drastically, often.  Currently,
-  the code structure is <del>borrowed</del> stolen directly from core matrix; the files
-  are only partially edited to replace matrix stuff with geometry
-  stuff.  Like I said, experimental.
+  the code structure is <del>borrowed</del> stolen directly from
+  [core.matrix](https://github.com/mikera/core.matrix); the files are
+  only partially edited to replace matrix stuff with geometry stuff.
+  Like I said, experimental.
 
 Partially inspired by
 [core.matrix](https://github.com/mikera/core.matrix).  The idea is to
