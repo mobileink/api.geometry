@@ -24,6 +24,7 @@ Graphics languages:
 
 See also:
 
+ * [Quil](https://github.com/quil/quil) Clojure wrapper of [Processing](http://www.processing.org/) libs.
  * [clojure/math.numerict-tower](https://github.com/clojure/math.numeric-tower)
  * [clojure/math.combinatorics](https://github.com/clojure/math.combinatorics)
  * [clojure-contrib math](http://richhickey.github.io/clojure-contrib/math-api.html)  - obsolete?
@@ -34,9 +35,24 @@ See also:
 
 Java:
 
+Computational geometry:
+
  * [JTS Topology Suite](http://tsusiatsoftware.net/) - this seems to
 be the latest home of JTS, but see also [this](http://www.vividsolutions.com/jts/main.htm) and
- [this](http://live.osgeo.org/en/overview/jts_overview.html).
+ [this](http://live.osgeo.org/en/overview/jts_overview.html).  LGPL.
+ * [JavaGeom](http://geom-java.sourceforge.net/) "The aim of JavaGeom is to provide methods to easily perform geometric computations, such as intersections of lines, clipping of polygons, transformation shapes, perimeter and area computations..."  LGPL.
+ * [GeoLib](http://www.geolib.co.uk/) "GeoLib is a fast, efficient, computational geometry library available in C++, C# and Java."  GPL.
+
+Graphics:
+
+* AWT
+* Swing
+* [Piccolo](http://www.cs.umd.edu/hcil/piccolo/) "a toolkit that supports the development of 2D structured graphics programs, in general, and Zoomable User Interfaces (ZUIs), in particular."
+* [Processing](http://www.processing.org/) - see also [Quil](https://github.com/quil/quil), a Clojure wrapper
+* [G](http://geosoft.no/graphics/) "a generic graphics library built on top of Java 2D in order to make scene graph oriented 2D graphics available to client applications in a high level, easy to use way."  LGPL
+
+Math stuff:
+
  * [java.math](http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html)
  * [EJML](https://code.google.com/p/efficient-java-matrix-library/) Efficient Java Matrix Library (EJML) "is a linear algebra library for manipulating dense matrices".  Apache v2.0 license
  * [jblas](http://mikiobraun.github.io/jblas/) "a fast linear algebra library for Java" based on BLAS and LAPACK
