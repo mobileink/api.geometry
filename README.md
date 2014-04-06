@@ -23,6 +23,9 @@ yet sure how to divvy things up, since any rendering kit must have at
 least some computational capabilities.  I think, anyway; I guess you
 could offload stuff to specialized graphics hardware.
 
+In any case, computational geometry is a good candidate for the
+api->protocol->implementation design used by core.matrix.
+
 See the [wiki](https://github.com/mobileink/api.geometry/wiki) for more info.
 
 Graphics languages:
