@@ -34,7 +34,9 @@ See also:
 
 Java:
 
- * [JTS Topology Suite](http://www.vividsolutions.com/jts/main.htm) (moribund? - last release 2006? but sourceforge codebase seems to be actively maintained) see also [this](http://live.osgeo.org/en/overview/jts_overview.html)
+ * [JTS Topology Suite](http://tsusiatsoftware.net/) - this seems to
+be the latest home of JTS, but see also [this](http://www.vividsolutions.com/jts/main.htm) and
+ [this](http://live.osgeo.org/en/overview/jts_overview.html).
  * [java.math](http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html)
  * [EJML](https://code.google.com/p/efficient-java-matrix-library/) Efficient Java Matrix Library (EJML) "is a linear algebra library for manipulating dense matrices".  Apache v2.0 license
  * [jblas](http://mikiobraun.github.io/jblas/) "a fast linear algebra library for Java" based on BLAS and LAPACK
