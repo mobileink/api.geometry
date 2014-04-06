@@ -5,6 +5,8 @@ A Clojure API for geometry.  See also dsl.geometry.
 
 **CAVEAT** Experimental.  Will change drastically, often.
 
+Partially inspired by [core.matrix](https://github.com/mikera/core.matrix).  The idea is to use Clojure's *protocol* facilities to define an API but efficiently delegate implementation.
+
 Graphics languages:
 
  * [TikZ/PGF](http://www.ctan.org/pkg/pgf) The best of the lot.  Metafont/post style syntax.
