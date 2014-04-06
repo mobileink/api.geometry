@@ -47,6 +47,7 @@ Graphics:
 
 * AWT
 * Swing
+* [SWT](http://www.eclipse.org/swt/) The Standard Widget Toolkit from the Eclipse project.
 * [Piccolo](http://www.cs.umd.edu/hcil/piccolo/) "a toolkit that supports the development of 2D structured graphics programs, in general, and Zoomable User Interfaces (ZUIs), in particular."
 * [Processing](http://www.processing.org/) - see also [Quil](https://github.com/quil/quil), a Clojure wrapper
 * [G](http://geosoft.no/graphics/) "a generic graphics library built on top of Java 2D in order to make scene graph oriented 2D graphics available to client applications in a high level, easy to use way."  LGPL
