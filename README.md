@@ -5,11 +5,17 @@ A Clojure API for geometry.  See also dsl.geometry.
 
 **CAVEAT** Experimental.  Will change drastically, often.
 
-Partially inspired by [core.matrix](https://github.com/mikera/core.matrix).  The idea is to use Clojure's *protocol* facilities to define an API but efficiently delegate implementation.
+Partially inspired by
+[core.matrix](https://github.com/mikera/core.matrix).  The idea is to
+use Clojure's *protocol* facilities to define an API but efficiently
+delegate implementation to plugins.  Unfortunately it's still early
+days for core.matrix, so the documentation is pretty thin.  To get the
+general idea see the comments in
+[matrix.clj](https://github.com/mikera/core.matrix/blob/develop/src/main/clojure/clojure/core/matrix.clj)
 
 Graphics languages:
 
- * [TikZ/PGF](http://www.ctan.org/pkg/pgf) The best of the lot.  Metafont/post style syntax.
+ * [TikZ/PGF](http://www.ctan.org/pkg/pgf) The best of the lot.  Uses Knuthian (Metafont/post style) infix syntax, e.g. `(a,b) -- (c,d)` instead of `line a b c d`.
  * [Asymptote](http://asymptote.sourceforge.net/) also uses Metafont-like syntax.
  * [SeExpr](http://www.disneyanimation.com/technology/seexpr.html) Simple embeddable expression language "for procedural geometry synthesis, image synthesis, simulation control, and much more." (from Disney!)  Apache 2.0 license
  * [OS X GCGeometry](https://developer.apple.com/library/mac/documentation/graphicsimaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/uid/TP30000955-CH202-SW1)
