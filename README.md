@@ -3,6 +3,8 @@ api.geometry
 
 A Clojure API for geometry.  See also dsl.geometry.
 
+**CAVEAT** Experimental.  Will change drastically, often.
+
 Graphics languages:
 
  * [TikZ/PGF](http://www.ctan.org/pkg/pgf) The best of the lot.  Metafont/post style syntax.
