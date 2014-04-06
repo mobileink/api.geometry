@@ -9,13 +9,19 @@ A Clojure API for geometry.  See also dsl.geometry.
   only partially edited to replace matrix stuff with geometry stuff.
   Like I said, experimental.
 
-Partially inspired by
+Structure inspired by
 [core.matrix](https://github.com/mikera/core.matrix).  The idea is to
 use Clojure's *protocol* facilities to define an API but efficiently
 delegate implementation to plugins.  Unfortunately it's still early
 days for core.matrix, so the documentation is pretty thin.  To get the
 general idea see the comments in
 [matrix.clj](https://github.com/mikera/core.matrix/blob/develop/src/main/clojure/clojure/core/matrix.clj)
+
+I'm not entirely sure this will work, in the long run.  There are two
+possible APIs: one for computational geometry, one for rendering.  Not
+yet sure how to divvy things up, since any rendering kit must have at
+least some computational capabilities.  I think, anyway; I guess you
+could offload stuff to specialized graphics hardware.
 
 See the [wiki](https://github.com/mobileink/api.geometry/wiki) for more info.
 
