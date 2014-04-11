@@ -28,14 +28,13 @@ api->protocol->implementation design used by core.matrix.
 
 See the [wiki](https://github.com/mobileink/api.geometry/wiki) for more info.
 
-Graphics languages:
+Graphics DSLs:
 
  * [TikZ/PGF](http://www.ctan.org/pkg/pgf) The best of the lot.  Uses Knuthian (Metafont/post style) infix syntax, e.g. `(a,b) -- (c,d)` instead of `line a b c d`.
  * [Asymptote](http://asymptote.sourceforge.net/) also uses Metafont-like syntax.
  * [SeExpr](http://www.disneyanimation.com/technology/seexpr.html) Simple embeddable expression language "for procedural geometry synthesis, image synthesis, simulation control, and much more." (from Disney!)  Apache 2.0 license
- * [OS X GCGeometry](https://developer.apple.com/library/mac/documentation/graphicsimaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/uid/TP30000955-CH202-SW1)
 
-See also:
+APIs: 
 
  * [Quil](https://github.com/quil/quil) Clojure wrapper of [Processing](http://www.processing.org/) libs.
  * [clojure/math.numerict-tower](https://github.com/clojure/math.numeric-tower)
@@ -46,9 +45,7 @@ See also:
  * [euclidean](https://github.com/weavejester/euclidean)
  * search github for "geometry", lang=clojure
 
-Java:
-
-Computational geometry:
+Java:  Computational geometry:
 
  * [JTS Topology Suite](http://tsusiatsoftware.net/) - this seems to
 be the latest home of JTS, but see also [this](http://www.vividsolutions.com/jts/main.htm) and
@@ -56,7 +53,7 @@ be the latest home of JTS, but see also [this](http://www.vividsolutions.com/jts
  * [JavaGeom](http://geom-java.sourceforge.net/) "The aim of JavaGeom is to provide methods to easily perform geometric computations, such as intersections of lines, clipping of polygons, transformation shapes, perimeter and area computations..."  LGPL.
  * [GeoLib](http://www.geolib.co.uk/) "GeoLib is a fast, efficient, computational geometry library available in C++, C# and Java."  GPL.
 
-Graphics:
+Java: Graphics (rendering):
 
 * AWT
 * Swing
@@ -65,6 +62,7 @@ Graphics:
 * [Piccolo](http://www.cs.umd.edu/hcil/piccolo/) "a toolkit that supports the development of 2D structured graphics programs, in general, and Zoomable User Interfaces (ZUIs), in particular."
 * [Processing](http://www.processing.org/) - see also [Quil](https://github.com/quil/quil), a Clojure wrapper
 * [G](http://geosoft.no/graphics/) "a generic graphics library built on top of Java 2D in order to make scene graph oriented 2D graphics available to client applications in a high level, easy to use way."  LGPL
+
 
 Math stuff:
 
@@ -86,3 +84,7 @@ Math stuff:
 Commercial Java:
 
  * [JMSL Numerical Library](http://www.roguewave.com/products/imsl-numerical-libraries/java-library.aspx) Rogue Wave
+ 
+Other languages:
+
+ * [OS X GCGeometry](https://developer.apple.com/library/mac/documentation/graphicsimaging/Reference/CGGeometry/Reference/reference.html#//apple_ref/doc/uid/TP30000955-CH202-SW1)
